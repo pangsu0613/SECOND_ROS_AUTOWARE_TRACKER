@@ -3,9 +3,9 @@
 This is a modified and improved version of [second_ros](https://github.com/cedricxie/second_ros) using SECOND V1.5 model. It can achieve real time performace on 1080Ti, tested with KITTI rosbag and ouster Lidar data.
 
 Most of the code is from
-[SECOND detector](https://github.com/traveller59/second.pytorch)
-[second_ros](https://github.com/cedricxie/second_ros)
-[Voxelnet ROS Implementation](https://github.com/tigerk0430/voxelnet_ros)
+[SECOND detector](https://github.com/traveller59/second.pytorch),
+[second_ros](https://github.com/cedricxie/second_ros),
+[Voxelnet ROS Implementation](https://github.com/tigerk0430/voxelnet_ros).
 Special thanks to [@traveller59](https://github.com/traveller59), [@qianguih](https://github.com/qianguih) and [cedricxie](https://github.com/cedricxie/second_ros)
 
 
