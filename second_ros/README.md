@@ -1,11 +1,15 @@
-# Run SECOND as a ROS Node
+# Run SECOND as a ROS Node and publish corresponding custom ROS messages that Autoware IMM_PDA_UKF_Tracker supports
 
-This project is still work in progress. Feel free to make pull requests and improve the performance together.
+This is a modified and improved version of [second_ros](https://github.com/cedricxie/second_ros) using SECOND V1.5 model. It can achieve real time performace on 1080Ti, tested with KITTI rosbag and ouster Lidar data.
 
-It is mostly based on [SECOND detector](https://github.com/traveller59/second.pytorch) and [Voxelnet ROS Implementation](https://github.com/tigerk0430/voxelnet_ros). Special thanks to [@traveller59](https://github.com/traveller59), [@tigerk0430](https://github.com/tigerk0430) and [@qianguih](https://github.com/qianguih)!
+Most of the code is from
+[SECOND detector](https://github.com/traveller59/second.pytorch)
+[second_ros](https://github.com/cedricxie/second_ros)
+[Voxelnet ROS Implementation](https://github.com/tigerk0430/voxelnet_ros)
+Special thanks to [@traveller59](https://github.com/traveller59), [@qianguih](https://github.com/qianguih) and [cedricxie](https://github.com/cedricxie/second_ros)
+
 
 ## Instructions
-Make sure to modify the paths in the scripts based on your setting accordingly.
 
 ### Step 1: build package
 ```
@@ -15,20 +19,16 @@ catkin_make && source devel/setup.bash
 ```
 
 ### Step 2: create environment for SECOND
-Follow installation and dataset preparation instruction at https://github.com/traveller59/second.pytorch. Miniconda is used to configure the dependencies. Notice that if you have rospy installed in Python 3, you can still use rosrun to launch SECOND as a ROS node.
+Follow installation and dataset preparation instruction at https://github.com/traveller59/second.pytorch.  Notice that if you have rospy installed in Python 3, you can still use rosrun to launch SECOND as a ROS node.
 
 ```
-conda env create -n py36 -f environment.yml
-conda activate py36
 source add_paths.sh
 pip install --user rospkg catkin_pkg
 ```
 
 ### Step 3: launch SECOND as a ROS node
-Play a bag from KITTI and see the result!
+Play a rosbag in another terminal and start the ros node.
 ```
 roslaunch second_ros second_kitt.launch
 ```
 
-## Video
-Check out the SECOND in Rviz at [link](https://www.youtube.com/watch?v=sRYLlBgouvI). The ROS bag is from KITTI raw dataset 2011_09_26_drive_0005.
