@@ -1,0 +1,40 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/autoware_config_msgs_generate_messages_eus"
+  "/home/xi/catkin_ws_second_detecter_tracker/second_ros/devel/share/roseus/ros/autoware_config_msgs/msg/ConfigPedestrianKF.l"
+  "/home/xi/catkin_ws_second_detecter_tracker/second_ros/devel/share/roseus/ros/autoware_config_msgs/msg/ConfigCarFusion.l"
+  "/home/xi/catkin_ws_second_detecter_tracker/second_ros/devel/share/roseus/ros/autoware_config_msgs/msg/ConfigNDTMappingOutput.l"
+  "/home/xi/catkin_ws_second_detecter_tracker/second_ros/devel/share/roseus/ros/autoware_config_msgs/msg/ConfigLaneRule.l"
+  "/home/xi/catkin_ws_second_detecter_tracker/second_ros/devel/share/roseus/ros/autoware_config_msgs/msg/ConfigRcnn.l"
+  "/home/xi/catkin_ws_second_detecter_tracker/second_ros/devel/share/roseus/ros/autoware_config_msgs/msg/ConfigRingFilter.l"
+  "/home/xi/catkin_ws_second_detecter_tracker/second_ros/devel/share/roseus/ros/autoware_config_msgs/msg/ConfigPedestrianDPM.l"
+  "/home/xi/catkin_ws_second_detecter_tracker/second_ros/devel/share/roseus/ros/autoware_config_msgs/msg/ConfigWaypointLoader.l"
+  "/home/xi/catkin_ws_second_detecter_tracker/second_ros/devel/share/roseus/ros/autoware_config_msgs/msg/ConfigPoints2Polygon.l"
+  "/home/xi/catkin_ws_second_detecter_tracker/second_ros/devel/share/roseus/ros/autoware_config_msgs/msg/ConfigCarKF.l"
+  "/home/xi/catkin_ws_second_detecter_tracker/second_ros/devel/share/roseus/ros/autoware_config_msgs/msg/ConfigNDT.l"
+  "/home/xi/catkin_ws_second_detecter_tracker/second_ros/devel/share/roseus/ros/autoware_config_msgs/msg/ConfigLaneSelect.l"
+  "/home/xi/catkin_ws_second_detecter_tracker/second_ros/devel/share/roseus/ros/autoware_config_msgs/msg/ConfigDistanceFilter.l"
+  "/home/xi/catkin_ws_second_detecter_tracker/second_ros/devel/share/roseus/ros/autoware_config_msgs/msg/ConfigRayGroundFilter.l"
+  "/home/xi/catkin_ws_second_detecter_tracker/second_ros/devel/share/roseus/ros/autoware_config_msgs/msg/ConfigLaneStop.l"
+  "/home/xi/catkin_ws_second_detecter_tracker/second_ros/devel/share/roseus/ros/autoware_config_msgs/msg/ConfigPedestrianFusion.l"
+  "/home/xi/catkin_ws_second_detecter_tracker/second_ros/devel/share/roseus/ros/autoware_config_msgs/msg/ConfigApproximateNDTMapping.l"
+  "/home/xi/catkin_ws_second_detecter_tracker/second_ros/devel/share/roseus/ros/autoware_config_msgs/msg/ConfigWaypointFollower.l"
+  "/home/xi/catkin_ws_second_detecter_tracker/second_ros/devel/share/roseus/ros/autoware_config_msgs/msg/ConfigTwistFilter.l"
+  "/home/xi/catkin_ws_second_detecter_tracker/second_ros/devel/share/roseus/ros/autoware_config_msgs/msg/ConfigVelocitySet.l"
+  "/home/xi/catkin_ws_second_detecter_tracker/second_ros/devel/share/roseus/ros/autoware_config_msgs/msg/ConfigDecisionMaker.l"
+  "/home/xi/catkin_ws_second_detecter_tracker/second_ros/devel/share/roseus/ros/autoware_config_msgs/msg/ConfigLatticeVelocitySet.l"
+  "/home/xi/catkin_ws_second_detecter_tracker/second_ros/devel/share/roseus/ros/autoware_config_msgs/msg/ConfigSSD.l"
+  "/home/xi/catkin_ws_second_detecter_tracker/second_ros/devel/share/roseus/ros/autoware_config_msgs/msg/ConfigRingGroundFilter.l"
+  "/home/xi/catkin_ws_second_detecter_tracker/second_ros/devel/share/roseus/ros/autoware_config_msgs/msg/ConfigVoxelGridFilter.l"
+  "/home/xi/catkin_ws_second_detecter_tracker/second_ros/devel/share/roseus/ros/autoware_config_msgs/msg/ConfigNDTMapping.l"
+  "/home/xi/catkin_ws_second_detecter_tracker/second_ros/devel/share/roseus/ros/autoware_config_msgs/msg/ConfigPlannerSelector.l"
+  "/home/xi/catkin_ws_second_detecter_tracker/second_ros/devel/share/roseus/ros/autoware_config_msgs/msg/ConfigRandomFilter.l"
+  "/home/xi/catkin_ws_second_detecter_tracker/second_ros/devel/share/roseus/ros/autoware_config_msgs/msg/ConfigICP.l"
+  "/home/xi/catkin_ws_second_detecter_tracker/second_ros/devel/share/roseus/ros/autoware_config_msgs/msg/ConfigCompareMapFilter.l"
+  "/home/xi/catkin_ws_second_detecter_tracker/second_ros/devel/share/roseus/ros/autoware_config_msgs/msg/ConfigCarDPM.l"
+  "/home/xi/catkin_ws_second_detecter_tracker/second_ros/devel/share/roseus/ros/autoware_config_msgs/manifest.l"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang )
+  include(CMakeFiles/autoware_config_msgs_generate_messages_eus.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

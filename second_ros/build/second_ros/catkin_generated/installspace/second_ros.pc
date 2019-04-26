@@ -1,0 +1,8 @@
+prefix=/home/xi/catkin_ws_second_detecter_tracker/second_ros/install
+
+Name: second_ros
+Description: Description of second_ros
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/xi/catkin_ws_second_detecter_tracker/second_ros/install/lib 
+Requires: 

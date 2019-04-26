@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/xi/catkin_ws_second_detecter_tracker/second_ros/install/setup.sh

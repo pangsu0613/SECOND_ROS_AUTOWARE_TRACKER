@@ -1,0 +1,40 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/autoware_config_msgs_generate_messages_py"
+  "/home/xi/catkin_ws_second_detecter_tracker/second_ros/devel/lib/python2.7/dist-packages/autoware_config_msgs/msg/_ConfigPedestrianKF.py"
+  "/home/xi/catkin_ws_second_detecter_tracker/second_ros/devel/lib/python2.7/dist-packages/autoware_config_msgs/msg/_ConfigCarFusion.py"
+  "/home/xi/catkin_ws_second_detecter_tracker/second_ros/devel/lib/python2.7/dist-packages/autoware_config_msgs/msg/_ConfigNDTMappingOutput.py"
+  "/home/xi/catkin_ws_second_detecter_tracker/second_ros/devel/lib/python2.7/dist-packages/autoware_config_msgs/msg/_ConfigLaneRule.py"
+  "/home/xi/catkin_ws_second_detecter_tracker/second_ros/devel/lib/python2.7/dist-packages/autoware_config_msgs/msg/_ConfigRcnn.py"
+  "/home/xi/catkin_ws_second_detecter_tracker/second_ros/devel/lib/python2.7/dist-packages/autoware_config_msgs/msg/_ConfigRingFilter.py"
+  "/home/xi/catkin_ws_second_detecter_tracker/second_ros/devel/lib/python2.7/dist-packages/autoware_config_msgs/msg/_ConfigPedestrianDPM.py"
+  "/home/xi/catkin_ws_second_detecter_tracker/second_ros/devel/lib/python2.7/dist-packages/autoware_config_msgs/msg/_ConfigWaypointLoader.py"
+  "/home/xi/catkin_ws_second_detecter_tracker/second_ros/devel/lib/python2.7/dist-packages/autoware_config_msgs/msg/_ConfigPoints2Polygon.py"
+  "/home/xi/catkin_ws_second_detecter_tracker/second_ros/devel/lib/python2.7/dist-packages/autoware_config_msgs/msg/_ConfigCarKF.py"
+  "/home/xi/catkin_ws_second_detecter_tracker/second_ros/devel/lib/python2.7/dist-packages/autoware_config_msgs/msg/_ConfigNDT.py"
+  "/home/xi/catkin_ws_second_detecter_tracker/second_ros/devel/lib/python2.7/dist-packages/autoware_config_msgs/msg/_ConfigLaneSelect.py"
+  "/home/xi/catkin_ws_second_detecter_tracker/second_ros/devel/lib/python2.7/dist-packages/autoware_config_msgs/msg/_ConfigDistanceFilter.py"
+  "/home/xi/catkin_ws_second_detecter_tracker/second_ros/devel/lib/python2.7/dist-packages/autoware_config_msgs/msg/_ConfigRayGroundFilter.py"
+  "/home/xi/catkin_ws_second_detecter_tracker/second_ros/devel/lib/python2.7/dist-packages/autoware_config_msgs/msg/_ConfigLaneStop.py"
+  "/home/xi/catkin_ws_second_detecter_tracker/second_ros/devel/lib/python2.7/dist-packages/autoware_config_msgs/msg/_ConfigPedestrianFusion.py"
+  "/home/xi/catkin_ws_second_detecter_tracker/second_ros/devel/lib/python2.7/dist-packages/autoware_config_msgs/msg/_ConfigApproximateNDTMapping.py"
+  "/home/xi/catkin_ws_second_detecter_tracker/second_ros/devel/lib/python2.7/dist-packages/autoware_config_msgs/msg/_ConfigWaypointFollower.py"
+  "/home/xi/catkin_ws_second_detecter_tracker/second_ros/devel/lib/python2.7/dist-packages/autoware_config_msgs/msg/_ConfigTwistFilter.py"
+  "/home/xi/catkin_ws_second_detecter_tracker/second_ros/devel/lib/python2.7/dist-packages/autoware_config_msgs/msg/_ConfigVelocitySet.py"
+  "/home/xi/catkin_ws_second_detecter_tracker/second_ros/devel/lib/python2.7/dist-packages/autoware_config_msgs/msg/_ConfigDecisionMaker.py"
+  "/home/xi/catkin_ws_second_detecter_tracker/second_ros/devel/lib/python2.7/dist-packages/autoware_config_msgs/msg/_ConfigLatticeVelocitySet.py"
+  "/home/xi/catkin_ws_second_detecter_tracker/second_ros/devel/lib/python2.7/dist-packages/autoware_config_msgs/msg/_ConfigSSD.py"
+  "/home/xi/catkin_ws_second_detecter_tracker/second_ros/devel/lib/python2.7/dist-packages/autoware_config_msgs/msg/_ConfigRingGroundFilter.py"
+  "/home/xi/catkin_ws_second_detecter_tracker/second_ros/devel/lib/python2.7/dist-packages/autoware_config_msgs/msg/_ConfigVoxelGridFilter.py"
+  "/home/xi/catkin_ws_second_detecter_tracker/second_ros/devel/lib/python2.7/dist-packages/autoware_config_msgs/msg/_ConfigNDTMapping.py"
+  "/home/xi/catkin_ws_second_detecter_tracker/second_ros/devel/lib/python2.7/dist-packages/autoware_config_msgs/msg/_ConfigPlannerSelector.py"
+  "/home/xi/catkin_ws_second_detecter_tracker/second_ros/devel/lib/python2.7/dist-packages/autoware_config_msgs/msg/_ConfigRandomFilter.py"
+  "/home/xi/catkin_ws_second_detecter_tracker/second_ros/devel/lib/python2.7/dist-packages/autoware_config_msgs/msg/_ConfigICP.py"
+  "/home/xi/catkin_ws_second_detecter_tracker/second_ros/devel/lib/python2.7/dist-packages/autoware_config_msgs/msg/_ConfigCompareMapFilter.py"
+  "/home/xi/catkin_ws_second_detecter_tracker/second_ros/devel/lib/python2.7/dist-packages/autoware_config_msgs/msg/_ConfigCarDPM.py"
+  "/home/xi/catkin_ws_second_detecter_tracker/second_ros/devel/lib/python2.7/dist-packages/autoware_config_msgs/msg/__init__.py"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang )
+  include(CMakeFiles/autoware_config_msgs_generate_messages_py.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

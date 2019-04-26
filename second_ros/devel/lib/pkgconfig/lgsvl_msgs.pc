@@ -1,0 +1,8 @@
+prefix=/home/xi/catkin_ws_second_detecter_tracker/second_ros/devel
+
+Name: lgsvl_msgs
+Description: Description of lgsvl_msgs
+Version: 1.9.0
+Cflags: -I/home/xi/catkin_ws_second_detecter_tracker/second_ros/devel/include
+Libs: -L/home/xi/catkin_ws_second_detecter_tracker/second_ros/devel/lib 
+Requires: message_runtime geometry_msgs sensor_msgs std_msgs

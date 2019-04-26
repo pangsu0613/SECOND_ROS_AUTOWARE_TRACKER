@@ -1,0 +1,8 @@
+prefix=/home/xi/catkin_ws_second_detecter_tracker/second_ros/devel
+
+Name: dbw_mkz_msgs
+Description: Description of dbw_mkz_msgs
+Version: 1.10.0
+Cflags: -I/home/xi/catkin_ws_second_detecter_tracker/second_ros/devel/include
+Libs: -L/home/xi/catkin_ws_second_detecter_tracker/second_ros/devel/lib 
+Requires: message_runtime std_msgs geometry_msgs
