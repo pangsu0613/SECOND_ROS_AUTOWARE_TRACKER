@@ -14,7 +14,7 @@ Special thanks to [@traveller59](https://github.com/traveller59), [@qianguih](ht
 ### Step 1: build package
 ```
 mkdir catkin_ws && cd catkin_ws
-git clone https://github.com/cedricxie/second_ros
+git clone https://github.com/pangsu0613/SECOND_ROS_AUTOWARE_TRACKER.git
 catkin_make && source devel/setup.bash
 ```
 
