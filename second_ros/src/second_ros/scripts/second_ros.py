@@ -12,9 +12,10 @@ from jsk_recognition_msgs.msg import BoundingBox, BoundingBoxArray
 
 import sys
 path_model = "/home/xi/catkin_ws/second_ros/src/second_ros/second/"
-sys.path.remove('/opt/ros/kinetic/lib/python2.7/dist-packages')
+if '/opt/ros/kinetic/lib/python2.7/dist-packages' in sys.path:
+    sys.path.remove('/opt/ros/kinetic/lib/python2.7/dist-packages')
 sys.path.append(path_model)
-print (sys.path)
+#print (sys.path)
 
 from pathlib import Path
 import glob
